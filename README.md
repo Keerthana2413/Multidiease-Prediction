@@ -1,6 +1,6 @@
 # Multi-Disease Prediction System
 
-This project is a **Multi-Disease Prediction System** that predicts the likelihood of multiple diseases—**Liver Disease**, **Kidney Disease**, and **Parkinson's Disease**—based on user input. The system uses **Streamlit** to create a user-friendly interface for real-time predictions.
+This project is a **Multi-Disease Prediction System** that predicts the likelihood of multiple diseases the file names as final.py and for each data like —**Liver Disease**, **Kidney Disease**, and **Parkinson's Disease** juypter notebook file vailable —based on user input. The system uses **Streamlit** to create a user-friendly interface for real-time predictions.
 
 ## Table of Contents
 - [Features](#features)
@@ -19,6 +19,7 @@ This project is a **Multi-Disease Prediction System** that predicts the likeliho
 
 ## Technologies Used
 - **Frontend**: [Streamlit](https://streamlit.io/) for the GUI.
+- **Juypternotebook**
 - **Backend**: Python for data processing and machine learning.
 - **Libraries**:
   - `pandas` for handling datasets.
