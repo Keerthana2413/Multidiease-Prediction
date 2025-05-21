@@ -33,10 +33,6 @@ if choice == "Kidney Disease":
     st.subheader("Model Info")
     st.write("**Model:** Random Forest | **Accuracy:** 98.75%")
 
-    if 'kidney_sample' not in st.session_state:
-        st.session_state.kidney_sample = kd.sample(2)
-    st.dataframe(st.session_state.kidney_sample)
-
     st.subheader("Input Features")
     sc = st.number_input('Serum Creatinine (sc)', min_value=0.0, step=0.01)
     bu = st.number_input('Blood Urea (bu)', min_value=0.0, step=0.1)
@@ -66,10 +62,6 @@ elif choice == "Liver Disease":
     st.subheader("Model Info")
     st.write("**Model:** Random Forest | **Accuracy:** 76.00%")
 
-    if 'liver_sample' not in st.session_state:
-        st.session_state.liver_sample = l.sample(2)
-    st.dataframe(st.session_state.liver_sample)
-
     st.subheader("Input Features")
     total_bilirubin = st.number_input("Total Bilirubin", min_value=0.0, format="%.2f")
     alk_phos = st.number_input("Alkaline Phosphotase", min_value=0, step=1)
@@ -96,10 +88,6 @@ else:
 
     st.subheader("Model Info")
     st.write("**Model:** Random Forest | **Accuracy:** 90.00%")
-
-    if 'parkinson_sample' not in st.session_state:
-        st.session_state.parkinson_sample = p.sample(2)
-    st.dataframe(st.session_state.parkinson_sample)
 
     st.subheader("Input Features")
     PPE = st.number_input("PPE", min_value=0.0, format="%.2f")
